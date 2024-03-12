@@ -1,10 +1,12 @@
-//
-// Created by utkuy on 3.03.2024.
-//
-
 #ifndef DEMO_PROJECT_SPACESHIP_H
 #define DEMO_PROJECT_SPACESHIP_H
+
 #include <iostream>
+
+#include "RockBreaker.h"
+#include "SpeedOfLight.h"
+#include "CosmicWind.h"
+
 
 class SpaceShip{
 public:
