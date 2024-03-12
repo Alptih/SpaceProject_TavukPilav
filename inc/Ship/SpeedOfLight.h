@@ -9,11 +9,11 @@
 class SpeedOfLight:public SpaceShip{
 
 public:
-    void damage(const int) override;
-    const float DefenceMultiply=1.5;
+    void damage(const int) override;//Pure virtual fonksiyonu declere edilir
+    const float DefenceMultiply=1.5;//İleride alınan hasarı ayarlamak için değişken tanımlanır
     SpeedOfLight(){
         std::cout<<"Crafting Your Speed Of Light... "<<"\n";
-        stamina=1.5;
+        stamina=1.5;//İleride kaçma fonksiyonunda kullanılmak üzere tanımlanan değişken
     }
 };
 #endif //DEMO_PROJECT_SPEEDOFLIGHT_H
