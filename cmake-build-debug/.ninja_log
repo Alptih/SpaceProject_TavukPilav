@@ -1,0 +1,11 @@
+# ninja log v5
+25	281	7319805096455494	CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpaceEventManager.cpp.obj	5b17e819a2b2a7b0
+77	283	7319805096538912	CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AbandonedPlanetEvent.cpp.obj	22d0a4bf37a0d3a7
+62	284	7319805096715936	CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.obj	b8008ecc1687f612
+67	291	7319805096929342	CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AsteroidBeltEvent.cpp.obj	6ed9a500437f0ac4
+56	1109	7319805105163675	CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/RockBreaker.cpp.obj	156c97c99701d92e
+10	1131	7319805105361187	CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/SpaceShip.cpp.obj	b4a4a31fd8096c4b
+50	1141	7319805105475941	CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/CosmicWind.cpp.obj	20342c3959ebedf1
+1	1147	7319805105547925	CMakeFiles/SpaceProject_TavukPilav.dir/main.cpp.obj	c66fdbdc092cd7ec
+16	1159	7319805105675607	CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/SpeedOfLight.cpp.obj	3b93a095793aac0d
+1159	1409	7319805107794662	SpaceProject_TavukPilav.exe	9d1fcfabb674292f

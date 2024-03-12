@@ -1,0 +1,3 @@
+C:/Users/alpti/OneDrive/SpaceProject_TavukPilav/cmake-build-debug/CMakeFiles/SpaceProject_TavukPilav.dir
+C:/Users/alpti/OneDrive/SpaceProject_TavukPilav/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alpti/OneDrive/SpaceProject_TavukPilav/cmake-build-debug/CMakeFiles/rebuild_cache.dir
