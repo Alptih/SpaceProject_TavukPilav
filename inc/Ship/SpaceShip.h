@@ -3,11 +3,6 @@
 
 #include <iostream>
 
-#include "RockBreaker.h"
-#include "SpeedOfLight.h"
-#include "CosmicWind.h"
-
-
 class SpaceShip{
 public:
     virtual void damage(const int)=0;
