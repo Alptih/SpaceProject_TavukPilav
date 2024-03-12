@@ -8,11 +8,11 @@
 
 class RockBreaker:public SpaceShip{
 public:
-    void damage(const int) override;
-    const float DefenceMultiply=0.5;
+    void damage(const int) override;//Pure virtual fonksiyonu declere edilir
+    const float DefenceMultiply=0.5;//İleride alınan hasarı ayarlamak için değişken tanımlanır
     RockBreaker(){
         std::cout<<"Forging Your Rock Breaker!!! "<<"\n";
-        stamina=0.5;
+        stamina=0.5;//İleride kaçma fonksiyonunda kullanılmak üzere tanımlanan değişken
     }
 
 };
