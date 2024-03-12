@@ -2,8 +2,8 @@
 // Created by utkuy on 12.03.2024.
 //
 
-#ifndef SPACE_PROJECT_COSMICWIND_H
-#define SPACE_PROJECT_COSMICWIND_H
+#ifndef DEMO_PROJECT_COSMICWIND_H
+#define DEMO_PROJECT_COSMICWIND_H
 #include "SpaceShip.h"
 
 class CosmicWind:public SpaceShip{
@@ -12,6 +12,7 @@ public:
     const float DefenceMultiply=1;
     CosmicWind(){
         std::cout<<"Creating Your Cosmic Wind... "<<"\n";
+        stamina=1;
     }
 };
-#endif //SPACE_PROJECT_COSMICWIND_H
+#endif //DEMO_PROJECT_COSMICWIND_H

@@ -1,8 +1,10 @@
+//
+// Created by utkuy on 12.03.2024.
+//
 #include "SpeedOfLight.h"
-#include <iostream>
 
 
 void SpeedOfLight::damage(const int _Event){
-    health-=_Event*DefenceMultiply;
+    LoseHeath(_Event*DefenceMultiply);
 }
 
