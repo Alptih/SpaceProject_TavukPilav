@@ -8,20 +8,31 @@
 
 class SpaceShip{
 public:
-    virtual void damage(const int)=0;//Hasar için pure virtual fonksiyon declere edilir
-    virtual void Bargain();//Pazarlık için virtual fonksiyon declere edilir
+
+    void Damage(const int);//Hasar için pure virtual fonksiyon declere edilir
     void EarnMoney(const int);//Parayı artırmak için set attr fonksiyonu declere edilir
     void LoseMoney(const int);//Parayı azaltmak için set attr fonksiyonu declere edilir
     void GainHealth(const int);//Canı artırmak için set attr fonksiyonu declere edilir
     void LoseHeath(const int);//Canı azaltmak için set attr fonksiyonu declere edilir
 
+    void LoseFuel(const int);
+
     void ShowStatus();//Geminin özelliklerini görmek için fonksiyon declere edilir
+
+    float ShowHealth(); //
+    float ShowGold();
+    int ShowFuel();
+
+    float CalculatePoints();
+
+    float inline GetEscapeMultiply(){return escapeMultiply;}
+
 protected:
+    float defenceMultiply{1};
     int fuel{100};
     float health{100};
     int gold{0};
-    float stamina{0};
-
+    float escapeMultiply{1};
 };
 
 

@@ -8,6 +8,7 @@
 #define SPACE_PROJECT_SPACEEVENTMANAGER_H
 
 class SpaceEventManager{
+
 public:
 
 
