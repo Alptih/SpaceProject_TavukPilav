@@ -28,6 +28,8 @@
 					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Ship"/>
 					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event"/>
 					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Event"/>
+					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Manager"/>
+					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Manager"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
@@ -55,6 +57,8 @@
 					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Ship"/>
 					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event"/>
 					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Event"/>
+					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Manager"/>
+					<Add directory="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Manager"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
@@ -104,6 +108,9 @@
 		<Unit filename="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event/SpacePiratesEvent.h">
 			<Option target="SpaceProject_TavukPilav"/>
 		</Unit>
+		<Unit filename="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Manager/EventGenerator.h">
+			<Option target="SpaceProject_TavukPilav"/>
+		</Unit>
 		<Unit filename="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Ship/CosmicWind.h">
 			<Option target="SpaceProject_TavukPilav"/>
 		</Unit>
@@ -129,6 +136,9 @@
 			<Option target="SpaceProject_TavukPilav"/>
 		</Unit>
 		<Unit filename="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Event/SpacePiratesEvent.cpp">
+			<Option target="SpaceProject_TavukPilav"/>
+		</Unit>
+		<Unit filename="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Manager/EventGenerator.cpp">
 			<Option target="SpaceProject_TavukPilav"/>
 		</Unit>
 		<Unit filename="C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Ship/CosmicWind.cpp">

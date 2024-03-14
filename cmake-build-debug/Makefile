@@ -248,6 +248,30 @@ src/Event/SpacePiratesEvent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.s
 .PHONY : src/Event/SpacePiratesEvent.cpp.s
 
+src/Manager/EventGenerator.obj: src/Manager/EventGenerator.cpp.obj
+.PHONY : src/Manager/EventGenerator.obj
+
+# target to build an object file
+src/Manager/EventGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj
+.PHONY : src/Manager/EventGenerator.cpp.obj
+
+src/Manager/EventGenerator.i: src/Manager/EventGenerator.cpp.i
+.PHONY : src/Manager/EventGenerator.i
+
+# target to preprocess a source file
+src/Manager/EventGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.i
+.PHONY : src/Manager/EventGenerator.cpp.i
+
+src/Manager/EventGenerator.s: src/Manager/EventGenerator.cpp.s
+.PHONY : src/Manager/EventGenerator.s
+
+# target to generate assembly for a file
+src/Manager/EventGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.s
+.PHONY : src/Manager/EventGenerator.cpp.s
+
 src/Ship/CosmicWind.obj: src/Ship/CosmicWind.cpp.obj
 .PHONY : src/Ship/CosmicWind.obj
 
@@ -368,6 +392,9 @@ help:
 	@echo ... src/Event/SpacePiratesEvent.obj
 	@echo ... src/Event/SpacePiratesEvent.i
 	@echo ... src/Event/SpacePiratesEvent.s
+	@echo ... src/Manager/EventGenerator.obj
+	@echo ... src/Manager/EventGenerator.i
+	@echo ... src/Manager/EventGenerator.s
 	@echo ... src/Ship/CosmicWind.obj
 	@echo ... src/Ship/CosmicWind.i
 	@echo ... src/Ship/CosmicWind.s

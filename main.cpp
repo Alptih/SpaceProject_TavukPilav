@@ -6,12 +6,14 @@
 #include "CosmicWind.h"
 #include "SpacePiratesEvent.h"
 #include "SpaceEventManager.h"
+#include "EventGenerator.h"
 
 
 int main() {
 
+    EventGenerator Generator;
 
-
+    std::string anan = Generator.GetData();
 
 
 

@@ -8,6 +8,8 @@ include_directories(inc/Ship)
 include_directories(src/Ship)
 include_directories(inc/Event)
 include_directories(src/Event)
+include_directories(src/Manager)
+include_directories(inc/Manager)
 
 # Executable tanımlanıyor ve hedef dosyanın kaynak dosyaları ekleniyor
 add_executable(SpaceProject_TavukPilav
@@ -28,6 +30,8 @@ add_executable(SpaceProject_TavukPilav
         src/Event/AsteroidBeltEvent.cpp
         src/Event/AbandonedPlanetEvent.cpp
         src/Event/SpacePiratesEvent.cpp
+        inc/Manager/EventGenerator.h
+        src/Manager/EventGenerator.cpp
 )
 
 # target_include_directories ile include dizinleri belirleniyor

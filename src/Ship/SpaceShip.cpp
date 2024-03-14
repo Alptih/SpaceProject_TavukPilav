@@ -20,7 +20,6 @@ void SpaceShip::GainHealth(const int HealthMultiplier) {//Can için set attr
 void SpaceShip::LoseFuel(const int loseFuel) {
     fuel-= loseFuel;
 }
-
 float SpaceShip::CalculatePoints(){
     float point{0};
 

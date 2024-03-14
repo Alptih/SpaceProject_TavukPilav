@@ -157,4 +157,8 @@ CMakeFiles/SpaceProject_TavukPilav.dir/main.cpp.obj: \
  C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Ship/RockBreaker.h \
  C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Ship/CosmicWind.h \
  C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event/SpacePiratesEvent.h \
- C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event/SpaceEventManager.h
+ C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event/SpaceEventManager.h \
+ C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Manager/EventGenerator.h \
+ C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event/AbandonedPlanetEvent.h \
+ C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event/SpacePiratesEvent.h \
+ C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/inc/Event/AsteroidBeltEvent.h

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpaceEventManager.cpp.obj.d"
   "CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.obj"
   "CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.obj.d"
+  "CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj"
+  "CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj.d"
   "CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/CosmicWind.cpp.obj"
   "CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/CosmicWind.cpp.obj.d"
   "CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/RockBreaker.cpp.obj"
