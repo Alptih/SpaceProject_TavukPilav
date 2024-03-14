@@ -2,9 +2,7 @@
 #define DEMO_PROJECT_SPACESHIP_H
 
 #include <iostream>
-#include "RockBreaker.h"
-#include "SpeedOfLight.h"
-#include "CosmicWind.h"
+
 
 class SpaceShip{
 public:
