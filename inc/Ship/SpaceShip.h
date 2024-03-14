@@ -6,7 +6,7 @@
 class SpaceShip{
 public:
 
-    virtual void Damage(const int)=0;//Hasar için fonksiyon declere edilir
+    virtual void Damage(const int)=0;//Hasar için pure virtual fonksiyon declere edilir
     void EarnMoney(const int);//Parayı artırmak için set attr fonksiyonu declere edilir
     void LoseMoney(const int);//Parayı azaltmak için set attr fonksiyonu declere edilir
     void GainHealth(const int);//Canı artırmak için set attr fonksiyonu declere edilir

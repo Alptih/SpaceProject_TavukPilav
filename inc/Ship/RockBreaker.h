@@ -12,7 +12,7 @@ public:
     RockBreaker(){
         defenceMultiply=0.5;//İleride alınan hasarı ayarlamak için değişken tanımlanır
         escapeMultiply=0.5;//İleride kaçma fonksiyonunda kullanılmak üzere tanımlanan değişken
-        std::cout<<"Forging Your Rock Breaker!!! "<<"\n";
+        std::cout<<"Forging Your Rock Breaker!!! "<<"\n"<<"-----------------------------------------------"<<"\n";
     }
 
 };

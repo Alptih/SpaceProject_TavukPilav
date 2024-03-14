@@ -8,9 +8,8 @@
 
 void SpacePiratesEvent::Bargain(SpaceShip& spaceShip) {//Pazarlık için olasılığa göre sırayla 1:2:3 3:2:1 para azalır
     srand(time(0));
-    if(rand()%6+1<4){
+    if(rand()%6+1<4)
         spaceShip.LoseMoney(10);
-    }
     else if(rand()%6+1<6)
         spaceShip.LoseMoney(20);
     else if(rand()%6+1<7)

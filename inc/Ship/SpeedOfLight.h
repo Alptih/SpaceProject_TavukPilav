@@ -12,7 +12,7 @@ public:
     SpeedOfLight(){
         defenceMultiply=1.5;//İleride alınan hasarı ayarlanır.
         escapeMultiply=1.5;//İleride kaçma fonksiyonunda kullanılmak üzere tanımlanan değişken
-        std::cout<<"Crafting Your Speed Of Light... "<<"\n";
+        std::cout<<"Crafting Your Speed Of Light... "<<"\n"<<"-----------------------------------------------"<<"\n";
     }
 
 
