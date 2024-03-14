@@ -203,6 +203,21 @@ CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\src\Event\SpacePiratesEvent.cpp -o CMakeFiles\SpaceProject_TavukPilav.dir\src\Event\SpacePiratesEvent.cpp.s
 
+CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj: CMakeFiles/SpaceProject_TavukPilav.dir/flags.make
+CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj: CMakeFiles/SpaceProject_TavukPilav.dir/includes_CXX.rsp
+CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj: C:/Users/utkuy/CLionProjects/SpaceProject_TavukPilav/src/Manager/EventGenerator.cpp
+CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj: CMakeFiles/SpaceProject_TavukPilav.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj -MF CMakeFiles\SpaceProject_TavukPilav.dir\src\Manager\EventGenerator.cpp.obj.d -o CMakeFiles\SpaceProject_TavukPilav.dir\src\Manager\EventGenerator.cpp.obj -c C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\src\Manager\EventGenerator.cpp
+
+CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\src\Manager\EventGenerator.cpp > CMakeFiles\SpaceProject_TavukPilav.dir\src\Manager\EventGenerator.cpp.i
+
+CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\src\Manager\EventGenerator.cpp -o CMakeFiles\SpaceProject_TavukPilav.dir\src\Manager\EventGenerator.cpp.s
+
 # Object files for target SpaceProject_TavukPilav
 SpaceProject_TavukPilav_OBJECTS = \
 "CMakeFiles/SpaceProject_TavukPilav.dir/main.cpp.obj" \
@@ -213,7 +228,8 @@ SpaceProject_TavukPilav_OBJECTS = \
 "CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpaceEventManager.cpp.obj" \
 "CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AsteroidBeltEvent.cpp.obj" \
 "CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AbandonedPlanetEvent.cpp.obj" \
-"CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.obj"
+"CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.obj" \
+"CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj"
 
 # External object files for target SpaceProject_TavukPilav
 SpaceProject_TavukPilav_EXTERNAL_OBJECTS =
@@ -227,11 +243,12 @@ SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/Sp
 SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AsteroidBeltEvent.cpp.obj
 SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AbandonedPlanetEvent.cpp.obj
 SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.obj
+SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj
 SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/build.make
 SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/linkLibs.rsp
 SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/objects1.rsp
 SpaceProject_TavukPilav.exe: CMakeFiles/SpaceProject_TavukPilav.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable SpaceProject_TavukPilav.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SpaceProject_TavukPilav.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SpaceProject_TavukPilav.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
