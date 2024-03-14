@@ -14,7 +14,7 @@ int main() {
     EventGenerator Generator;
 
     std::string anan = Generator.GetData();
-
+    std::cout<<anan;
 
 
 
