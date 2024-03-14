@@ -8,7 +8,7 @@
 
 class RockBreaker:public SpaceShip{
 public:
-
+    void Damage(const int) override;
     RockBreaker(){
         defenceMultiply=0.5;//İleride alınan hasarı ayarlamak için değişken tanımlanır
         escapeMultiply=0.5;//İleride kaçma fonksiyonunda kullanılmak üzere tanımlanan değişken

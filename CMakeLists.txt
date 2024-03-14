@@ -28,6 +28,7 @@ add_executable(SpaceProject_TavukPilav
         src/Event/AsteroidBeltEvent.cpp
         src/Event/AbandonedPlanetEvent.cpp
         src/Event/SpacePiratesEvent.cpp
+        inc/Event/Event.h
 )
 
 # target_include_directories ile include dizinleri belirleniyor
