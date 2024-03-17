@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav
+CMAKE_SOURCE_DIR = C:\Users\alpti\OneDrive\SpaceProject_TavukPilav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\alpti\OneDrive\SpaceProject_TavukPilav\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-bu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files (x86)\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files (x86)\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alpti\OneDrive\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles C:\Users\alpti\OneDrive\SpaceProject_TavukPilav\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alpti\OneDrive\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SpaceProject_TavukPilav
+# Target rules for targets named SpaceVoyager
 
 # Build rule for target.
-SpaceProject_TavukPilav: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SpaceProject_TavukPilav
-.PHONY : SpaceProject_TavukPilav
+SpaceVoyager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SpaceVoyager
+.PHONY : SpaceVoyager
 
 # fast build rule for target.
-SpaceProject_TavukPilav/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/build
-.PHONY : SpaceProject_TavukPilav/fast
+SpaceVoyager/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/build
+.PHONY : SpaceVoyager/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/Event/AbandonedPlanetEvent.obj: src/Event/AbandonedPlanetEvent.cpp.obj
@@ -157,7 +157,7 @@ src/Event/AbandonedPlanetEvent.obj: src/Event/AbandonedPlanetEvent.cpp.obj
 
 # target to build an object file
 src/Event/AbandonedPlanetEvent.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AbandonedPlanetEvent.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/AbandonedPlanetEvent.cpp.obj
 .PHONY : src/Event/AbandonedPlanetEvent.cpp.obj
 
 src/Event/AbandonedPlanetEvent.i: src/Event/AbandonedPlanetEvent.cpp.i
@@ -165,7 +165,7 @@ src/Event/AbandonedPlanetEvent.i: src/Event/AbandonedPlanetEvent.cpp.i
 
 # target to preprocess a source file
 src/Event/AbandonedPlanetEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AbandonedPlanetEvent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/AbandonedPlanetEvent.cpp.i
 .PHONY : src/Event/AbandonedPlanetEvent.cpp.i
 
 src/Event/AbandonedPlanetEvent.s: src/Event/AbandonedPlanetEvent.cpp.s
@@ -173,7 +173,7 @@ src/Event/AbandonedPlanetEvent.s: src/Event/AbandonedPlanetEvent.cpp.s
 
 # target to generate assembly for a file
 src/Event/AbandonedPlanetEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AbandonedPlanetEvent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/AbandonedPlanetEvent.cpp.s
 .PHONY : src/Event/AbandonedPlanetEvent.cpp.s
 
 src/Event/AsteroidBeltEvent.obj: src/Event/AsteroidBeltEvent.cpp.obj
@@ -181,7 +181,7 @@ src/Event/AsteroidBeltEvent.obj: src/Event/AsteroidBeltEvent.cpp.obj
 
 # target to build an object file
 src/Event/AsteroidBeltEvent.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AsteroidBeltEvent.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/AsteroidBeltEvent.cpp.obj
 .PHONY : src/Event/AsteroidBeltEvent.cpp.obj
 
 src/Event/AsteroidBeltEvent.i: src/Event/AsteroidBeltEvent.cpp.i
@@ -189,7 +189,7 @@ src/Event/AsteroidBeltEvent.i: src/Event/AsteroidBeltEvent.cpp.i
 
 # target to preprocess a source file
 src/Event/AsteroidBeltEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AsteroidBeltEvent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/AsteroidBeltEvent.cpp.i
 .PHONY : src/Event/AsteroidBeltEvent.cpp.i
 
 src/Event/AsteroidBeltEvent.s: src/Event/AsteroidBeltEvent.cpp.s
@@ -197,7 +197,7 @@ src/Event/AsteroidBeltEvent.s: src/Event/AsteroidBeltEvent.cpp.s
 
 # target to generate assembly for a file
 src/Event/AsteroidBeltEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/AsteroidBeltEvent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/AsteroidBeltEvent.cpp.s
 .PHONY : src/Event/AsteroidBeltEvent.cpp.s
 
 src/Event/SpaceEventManager.obj: src/Event/SpaceEventManager.cpp.obj
@@ -205,7 +205,7 @@ src/Event/SpaceEventManager.obj: src/Event/SpaceEventManager.cpp.obj
 
 # target to build an object file
 src/Event/SpaceEventManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpaceEventManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/SpaceEventManager.cpp.obj
 .PHONY : src/Event/SpaceEventManager.cpp.obj
 
 src/Event/SpaceEventManager.i: src/Event/SpaceEventManager.cpp.i
@@ -213,7 +213,7 @@ src/Event/SpaceEventManager.i: src/Event/SpaceEventManager.cpp.i
 
 # target to preprocess a source file
 src/Event/SpaceEventManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpaceEventManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/SpaceEventManager.cpp.i
 .PHONY : src/Event/SpaceEventManager.cpp.i
 
 src/Event/SpaceEventManager.s: src/Event/SpaceEventManager.cpp.s
@@ -221,7 +221,7 @@ src/Event/SpaceEventManager.s: src/Event/SpaceEventManager.cpp.s
 
 # target to generate assembly for a file
 src/Event/SpaceEventManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpaceEventManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/SpaceEventManager.cpp.s
 .PHONY : src/Event/SpaceEventManager.cpp.s
 
 src/Event/SpacePiratesEvent.obj: src/Event/SpacePiratesEvent.cpp.obj
@@ -229,7 +229,7 @@ src/Event/SpacePiratesEvent.obj: src/Event/SpacePiratesEvent.cpp.obj
 
 # target to build an object file
 src/Event/SpacePiratesEvent.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/SpacePiratesEvent.cpp.obj
 .PHONY : src/Event/SpacePiratesEvent.cpp.obj
 
 src/Event/SpacePiratesEvent.i: src/Event/SpacePiratesEvent.cpp.i
@@ -237,7 +237,7 @@ src/Event/SpacePiratesEvent.i: src/Event/SpacePiratesEvent.cpp.i
 
 # target to preprocess a source file
 src/Event/SpacePiratesEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/SpacePiratesEvent.cpp.i
 .PHONY : src/Event/SpacePiratesEvent.cpp.i
 
 src/Event/SpacePiratesEvent.s: src/Event/SpacePiratesEvent.cpp.s
@@ -245,7 +245,7 @@ src/Event/SpacePiratesEvent.s: src/Event/SpacePiratesEvent.cpp.s
 
 # target to generate assembly for a file
 src/Event/SpacePiratesEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Event/SpacePiratesEvent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Event/SpacePiratesEvent.cpp.s
 .PHONY : src/Event/SpacePiratesEvent.cpp.s
 
 src/Manager/EventGenerator.obj: src/Manager/EventGenerator.cpp.obj
@@ -253,7 +253,7 @@ src/Manager/EventGenerator.obj: src/Manager/EventGenerator.cpp.obj
 
 # target to build an object file
 src/Manager/EventGenerator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Manager/EventGenerator.cpp.obj
 .PHONY : src/Manager/EventGenerator.cpp.obj
 
 src/Manager/EventGenerator.i: src/Manager/EventGenerator.cpp.i
@@ -261,7 +261,7 @@ src/Manager/EventGenerator.i: src/Manager/EventGenerator.cpp.i
 
 # target to preprocess a source file
 src/Manager/EventGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Manager/EventGenerator.cpp.i
 .PHONY : src/Manager/EventGenerator.cpp.i
 
 src/Manager/EventGenerator.s: src/Manager/EventGenerator.cpp.s
@@ -269,15 +269,39 @@ src/Manager/EventGenerator.s: src/Manager/EventGenerator.cpp.s
 
 # target to generate assembly for a file
 src/Manager/EventGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Manager/EventGenerator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Manager/EventGenerator.cpp.s
 .PHONY : src/Manager/EventGenerator.cpp.s
+
+src/Manager/StoryTeller.obj: src/Manager/StoryTeller.cpp.obj
+.PHONY : src/Manager/StoryTeller.obj
+
+# target to build an object file
+src/Manager/StoryTeller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Manager/StoryTeller.cpp.obj
+.PHONY : src/Manager/StoryTeller.cpp.obj
+
+src/Manager/StoryTeller.i: src/Manager/StoryTeller.cpp.i
+.PHONY : src/Manager/StoryTeller.i
+
+# target to preprocess a source file
+src/Manager/StoryTeller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Manager/StoryTeller.cpp.i
+.PHONY : src/Manager/StoryTeller.cpp.i
+
+src/Manager/StoryTeller.s: src/Manager/StoryTeller.cpp.s
+.PHONY : src/Manager/StoryTeller.s
+
+# target to generate assembly for a file
+src/Manager/StoryTeller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Manager/StoryTeller.cpp.s
+.PHONY : src/Manager/StoryTeller.cpp.s
 
 src/Ship/CosmicWind.obj: src/Ship/CosmicWind.cpp.obj
 .PHONY : src/Ship/CosmicWind.obj
 
 # target to build an object file
 src/Ship/CosmicWind.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/CosmicWind.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/CosmicWind.cpp.obj
 .PHONY : src/Ship/CosmicWind.cpp.obj
 
 src/Ship/CosmicWind.i: src/Ship/CosmicWind.cpp.i
@@ -285,7 +309,7 @@ src/Ship/CosmicWind.i: src/Ship/CosmicWind.cpp.i
 
 # target to preprocess a source file
 src/Ship/CosmicWind.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/CosmicWind.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/CosmicWind.cpp.i
 .PHONY : src/Ship/CosmicWind.cpp.i
 
 src/Ship/CosmicWind.s: src/Ship/CosmicWind.cpp.s
@@ -293,7 +317,7 @@ src/Ship/CosmicWind.s: src/Ship/CosmicWind.cpp.s
 
 # target to generate assembly for a file
 src/Ship/CosmicWind.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/CosmicWind.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/CosmicWind.cpp.s
 .PHONY : src/Ship/CosmicWind.cpp.s
 
 src/Ship/RockBreaker.obj: src/Ship/RockBreaker.cpp.obj
@@ -301,7 +325,7 @@ src/Ship/RockBreaker.obj: src/Ship/RockBreaker.cpp.obj
 
 # target to build an object file
 src/Ship/RockBreaker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/RockBreaker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/RockBreaker.cpp.obj
 .PHONY : src/Ship/RockBreaker.cpp.obj
 
 src/Ship/RockBreaker.i: src/Ship/RockBreaker.cpp.i
@@ -309,7 +333,7 @@ src/Ship/RockBreaker.i: src/Ship/RockBreaker.cpp.i
 
 # target to preprocess a source file
 src/Ship/RockBreaker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/RockBreaker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/RockBreaker.cpp.i
 .PHONY : src/Ship/RockBreaker.cpp.i
 
 src/Ship/RockBreaker.s: src/Ship/RockBreaker.cpp.s
@@ -317,7 +341,7 @@ src/Ship/RockBreaker.s: src/Ship/RockBreaker.cpp.s
 
 # target to generate assembly for a file
 src/Ship/RockBreaker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/RockBreaker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/RockBreaker.cpp.s
 .PHONY : src/Ship/RockBreaker.cpp.s
 
 src/Ship/SpaceShip.obj: src/Ship/SpaceShip.cpp.obj
@@ -325,7 +349,7 @@ src/Ship/SpaceShip.obj: src/Ship/SpaceShip.cpp.obj
 
 # target to build an object file
 src/Ship/SpaceShip.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/SpaceShip.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/SpaceShip.cpp.obj
 .PHONY : src/Ship/SpaceShip.cpp.obj
 
 src/Ship/SpaceShip.i: src/Ship/SpaceShip.cpp.i
@@ -333,7 +357,7 @@ src/Ship/SpaceShip.i: src/Ship/SpaceShip.cpp.i
 
 # target to preprocess a source file
 src/Ship/SpaceShip.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/SpaceShip.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/SpaceShip.cpp.i
 .PHONY : src/Ship/SpaceShip.cpp.i
 
 src/Ship/SpaceShip.s: src/Ship/SpaceShip.cpp.s
@@ -341,7 +365,7 @@ src/Ship/SpaceShip.s: src/Ship/SpaceShip.cpp.s
 
 # target to generate assembly for a file
 src/Ship/SpaceShip.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/SpaceShip.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/SpaceShip.cpp.s
 .PHONY : src/Ship/SpaceShip.cpp.s
 
 src/Ship/SpeedOfLight.obj: src/Ship/SpeedOfLight.cpp.obj
@@ -349,7 +373,7 @@ src/Ship/SpeedOfLight.obj: src/Ship/SpeedOfLight.cpp.obj
 
 # target to build an object file
 src/Ship/SpeedOfLight.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/SpeedOfLight.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/SpeedOfLight.cpp.obj
 .PHONY : src/Ship/SpeedOfLight.cpp.obj
 
 src/Ship/SpeedOfLight.i: src/Ship/SpeedOfLight.cpp.i
@@ -357,7 +381,7 @@ src/Ship/SpeedOfLight.i: src/Ship/SpeedOfLight.cpp.i
 
 # target to preprocess a source file
 src/Ship/SpeedOfLight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/SpeedOfLight.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/SpeedOfLight.cpp.i
 .PHONY : src/Ship/SpeedOfLight.cpp.i
 
 src/Ship/SpeedOfLight.s: src/Ship/SpeedOfLight.cpp.s
@@ -365,7 +389,7 @@ src/Ship/SpeedOfLight.s: src/Ship/SpeedOfLight.cpp.s
 
 # target to generate assembly for a file
 src/Ship/SpeedOfLight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/src/Ship/SpeedOfLight.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/src/Ship/SpeedOfLight.cpp.s
 .PHONY : src/Ship/SpeedOfLight.cpp.s
 
 # Help Target
@@ -376,7 +400,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SpaceProject_TavukPilav
+	@echo ... SpaceVoyager
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -395,6 +419,9 @@ help:
 	@echo ... src/Manager/EventGenerator.obj
 	@echo ... src/Manager/EventGenerator.i
 	@echo ... src/Manager/EventGenerator.s
+	@echo ... src/Manager/StoryTeller.obj
+	@echo ... src/Manager/StoryTeller.i
+	@echo ... src/Manager/StoryTeller.s
 	@echo ... src/Ship/CosmicWind.obj
 	@echo ... src/Ship/CosmicWind.i
 	@echo ... src/Ship/CosmicWind.s

@@ -3,28 +3,21 @@
 
 #include <iostream>
 
-
 class SpaceShip{
 public:
 
-    void Damage(const int);//Hasar için pure virtual fonksiyon declere edilir
+    virtual void Damage(const int)=0;//Hasar için pure virtual fonksiyon declere edilir
     void EarnMoney(const int);//Parayı artırmak için set attr fonksiyonu declere edilir
     void LoseMoney(const int);//Parayı azaltmak için set attr fonksiyonu declere edilir
     void GainHealth(const int);//Canı artırmak için set attr fonksiyonu declere edilir
     void LoseHeath(const int);//Canı azaltmak için set attr fonksiyonu declere edilir
-
     void LoseFuel(const int);
-
     void ShowStatus();//Geminin özelliklerini görmek için fonksiyon declere edilir
-
-    float ShowHealth(); //
-    float ShowGold();
-    int ShowFuel();
-
+    inline float ShowHealth(){return health;}
+    inline float ShowGold(){return gold;}
+    inline int ShowFuel(){return fuel;}
     float CalculatePoints();
-
     float inline GetEscapeMultiply(){return escapeMultiply;}
-
 protected:
     float defenceMultiply{1};
     int fuel{100};

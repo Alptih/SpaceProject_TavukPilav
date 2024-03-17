@@ -1,3 +1,4 @@
+
 //
 // Created by bugra on 14.03.2024.
 //
@@ -10,11 +11,14 @@
 #include "SpacePiratesEvent.h"
 class EventGenerator {
 public:
-void GenerateEvent(SpaceShip&);
-std::string GetData();
+    void GenerateEvent(SpaceShip&);
+    std::string GetData();
 
 private:
 
 protected:
 };
 #endif //SPACEPROJECT_TAVUKPILAV_EVENTGENERATOR_H
+
+
+

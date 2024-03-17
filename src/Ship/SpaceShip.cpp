@@ -3,7 +3,7 @@
 #include <iostream>
 
 void SpaceShip::ShowStatus() {//tüm statları ekrana yazdırır
-    std::cout<<"\n"<<"Ship's Health: "<<health<<"\n"<<"Your Gold: "<<gold<<"\n"<<"Ship's Fuel: "<<fuel<<"\n"<<"Stamina: "<<stamina;
+    std::cout<<"\n"<<"Ship's Health: "<<health<<"\n"<<"Your Gold: "<<gold<<"\n"<<"Ship's Fuel: "<<fuel<<"\n";
 }
 void SpaceShip::EarnMoney(const int GoldMultiplier) {//Para için set attr
     gold+=GoldMultiplier;
@@ -17,13 +17,8 @@ void SpaceShip::LoseHeath(const int HealthMultiplier) {//Can için set attr
 void SpaceShip::GainHealth(const int HealthMultiplier) {//Can için set attr
     health+=HealthMultiplier;
 }
-
 void SpaceShip::LoseFuel(const int loseFuel) {
     fuel-= loseFuel;
-}
-
-void SpaceShip::Damage(const int damage){
-    LoseHeath(damage*defenceMultiply);//Cosmic Wind için damage fonksiyonu tanımlanır içerisine aldığı eventteki hasarı kendi defensine göre değiştirir
 }
 float SpaceShip::CalculatePoints(){
     float point{0};

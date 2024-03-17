@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
-project(SpaceProject_TavukPilav)
+project(SpaceVoyager)
 
 set(CMAKE_CXX_STANDARD 23)
 
@@ -11,34 +11,24 @@ include_directories(src/Event)
 include_directories(src/Manager)
 include_directories(inc/Manager)
 
-# Executable tanımlanıyor ve hedef dosyanın kaynak dosyaları ekleniyor
-add_executable(SpaceProject_TavukPilav
-        main.cpp
-        inc/Ship/SpaceShip.h
+add_executable(SpaceVoyager main.cpp
+        inc/Event/AbandonedPlanetEvent.h
+        inc/Event/AsteroidBeltEvent.h
+        inc/Event/SpaceEventManager.h
+        inc/Event/SpacePiratesEvent.h
+        inc/Manager/EventGenerator.h
         inc/Ship/CosmicWind.h
-        inc/Ship/SpeedOfLight.h
         inc/Ship/RockBreaker.h
+        inc/Ship/SpaceShip.h
+        inc/Ship/SpeedOfLight.h
+        src/Event/AbandonedPlanetEvent.cpp
+        src/Event/AsteroidBeltEvent.cpp
+        src/Event/SpaceEventManager.cpp
+        src/Event/SpacePiratesEvent.cpp
+        src/Manager/EventGenerator.cpp
+        src/Ship/CosmicWind.cpp
+        src/Ship/RockBreaker.cpp
         src/Ship/SpaceShip.cpp
         src/Ship/SpeedOfLight.cpp
-        src/Ship/RockBreaker.cpp
-        src/Ship/CosmicWind.cpp
-        inc/Event/SpaceEventManager.h
-        inc/Event/AsteroidBeltEvent.h
-        inc/Event/AbandonedPlanetEvent.h
-        inc/Event/SpacePiratesEvent.h
-        src/Event/SpaceEventManager.cpp
-        src/Event/AsteroidBeltEvent.cpp
-        src/Event/AbandonedPlanetEvent.cpp
-        src/Event/SpacePiratesEvent.cpp
-        inc/Manager/EventGenerator.h
-        src/Manager/EventGenerator.cpp
-)
-
-# target_include_directories ile include dizinleri belirleniyor
-target_include_directories(SpaceProject_TavukPilav
-        PRIVATE
-        inc/Ship
-        src/Ship
-        inc/Event
-        src/Event
-)
+        inc/Manager/StoryTeller.h
+        src/Manager/StoryTeller.cpp)

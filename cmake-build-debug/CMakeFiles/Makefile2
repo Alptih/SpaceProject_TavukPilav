@@ -44,25 +44,25 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav
+CMAKE_SOURCE_DIR = C:\Users\alpti\OneDrive\SpaceProject_TavukPilav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\alpti\OneDrive\SpaceProject_TavukPilav\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SpaceProject_TavukPilav.dir/all
+all: CMakeFiles/SpaceVoyager.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SpaceProject_TavukPilav.dir/clean
+clean: CMakeFiles/SpaceVoyager.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SpaceProject_TavukPilav.dir
+# Target rules for target CMakeFiles/SpaceVoyager.dir
 
 # All Build rule for target.
-CMakeFiles/SpaceProject_TavukPilav.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target SpaceProject_TavukPilav"
-.PHONY : CMakeFiles/SpaceProject_TavukPilav.dir/all
+CMakeFiles/SpaceVoyager.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\alpti\OneDrive\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target SpaceVoyager"
+.PHONY : CMakeFiles/SpaceVoyager.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SpaceProject_TavukPilav.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SpaceProject_TavukPilav.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\utkuy\CLionProjects\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/SpaceProject_TavukPilav.dir/rule
+CMakeFiles/SpaceVoyager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alpti\OneDrive\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SpaceVoyager.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alpti\OneDrive\SpaceProject_TavukPilav\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/SpaceVoyager.dir/rule
 
 # Convenience name for target.
-SpaceProject_TavukPilav: CMakeFiles/SpaceProject_TavukPilav.dir/rule
-.PHONY : SpaceProject_TavukPilav
+SpaceVoyager: CMakeFiles/SpaceVoyager.dir/rule
+.PHONY : SpaceVoyager
 
 # clean rule for target.
-CMakeFiles/SpaceProject_TavukPilav.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceProject_TavukPilav.dir\build.make CMakeFiles/SpaceProject_TavukPilav.dir/clean
-.PHONY : CMakeFiles/SpaceProject_TavukPilav.dir/clean
+CMakeFiles/SpaceVoyager.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceVoyager.dir\build.make CMakeFiles/SpaceVoyager.dir/clean
+.PHONY : CMakeFiles/SpaceVoyager.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
